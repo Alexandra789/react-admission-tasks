@@ -3,6 +3,11 @@ body {
     padding: 0 16px;
 }
 
+.description {
+    width: 50%;
+    line-height: 1.2;
+}
+
 .terminal {
     width: 50%;
 }
@@ -36,7 +41,7 @@ body {
     padding: 15px;
 }
 
-.terminal__body p{
+.terminal__body p {
     margin: 0;
 }
 
@@ -65,14 +70,14 @@ body {
     background-color: #03ca0b;
 }
 
-.terminal__cursor{
+.terminal__cursor {
     position: relative;
     order: 1;
 }
 
 .terminal__cursor::after {
     content: "";
-    color:#131313;
+    color: #131313;
     position: absolute;
     top: 0;
     left: 0;
