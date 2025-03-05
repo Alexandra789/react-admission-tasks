@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task2</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h3 class="title">Задание №2</h3>
+    <p class="description">
+        Описать класс PoemButton в ES5-стиле ООП (т.е. функция-конструктор, методы добавлять именно в prototype класса).
+        Конструктор класса должен получать две строки — <span>buttonCaption</span> и <span>alertText</span> и создавать
+        на веб-странице кнопку с текстом <span>buttonCaption</span>, при нажатии на которую вызывается метод
+        <span>buttonPressed()</span>, который в свою очередь выводит в <span>alert</span> текст <span>alertText</span>.
+        Загрузить через <span>AJAX</span> файл <span>https://fe.it-academy.by/Examples/test_JSE.json</span>, он содержит:
+        <code> [
+          {"buttonCaption":"строка 1","alertText":"однажды в студёную зимнюю пору"},
+          {"buttonCaption":"строка 2","alertText":"я из лесу вышел, был сильный мороз"},
+          {"buttonCaption":"строка 3","alertText":"гляжу - поднимается медленно в гору"},
+          {"buttonCaption":"строка 4","alertText":"лошадка, везущая хворосту воз"}
+        ]</code>
+        По каждому элементу загруженного массива создать объект класса PoemButton.
+    </p>
+    <h3 class="title">Результат:</h3>
+    <div class="button-container"></div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
