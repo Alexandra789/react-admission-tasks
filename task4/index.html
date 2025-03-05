@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task3</title>
+    <link rel="stylesheet" href="../task1/style.css">
+    <link rel="stylesheet" href="../task2/style.css">
+</head>
+
+<body>
+    <h3 class="title">Задание №4</h3>
+    <p class="description">
+        Загрузить через <span>AJAX</span> файл <span>https://fe.it-academy.by/Examples/test_JSE.txt</span>.
+        Регулярным выражением найти в загруженном тексте все валидные строковые константы JavaScript и вывести их в
+        консоль.
+        В консоли должно получиться:
+        <code>
+            "hello привет!"</br>
+            'goodbye пока'</br>
+            "hello привет\ngoodbye пока"</br>
+            "hello привет\"goodbye пока"</br>
+            'hello привет\'goodbye пока'</br>
+            "hello привет'goodbye пока"</br>
+            'hello привет"goodbye пока'</br>
+            "hello привет\'goodbye пока\"снова hello"</br>
+            'hello привет\\goodbye пока'</br>
+            "Она подарила ему своё \u2665, потому что у него было много \xA5"
+        </code>
+
+    </p>
+    <h3 class="title">Результат:</h3>
+    <div class="terminal">
+        <div class="terminal__header">
+            <div class="terminal__circles">
+                <div class="terminal__circle terminal__circle--red"></div>
+                <div class="terminal__circle terminal__circle--yellow"></div>
+                <div class="terminal__circle terminal__circle--green"></div>
+            </div>
+            <h4 class="terminal__title">Консоль</h4>
+        </div>
+        <div class="terminal__body terminal__body--height">
+          <div class="terminal__cursor"></div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
