@@ -1,4 +1,4 @@
-let terminalBody = document.querySelector('.terminal__body');
+const terminalBody = document.querySelector('.terminal__body');
 
 function logMessage(firstLetter, lastLetter) {
     const firstLetterCode = firstLetter.charCodeAt(0);
